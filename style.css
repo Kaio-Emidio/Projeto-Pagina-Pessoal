@@ -45,7 +45,7 @@ header * {
 nav {
   position: relative;
   left: 20%;
-  top: -25px;
+  top: -15px;
 }
 
 nav i {
@@ -75,6 +75,7 @@ nav a:hover {
 section {
   width: 90%;
   margin: 0 auto;
+  padding: 0px;
 }
 
 img {
@@ -100,6 +101,7 @@ article {
 
 .nome {
   position: absolute;
+  top: 5px;
 }
 
 #hero {
@@ -159,6 +161,11 @@ article {
   margin: 0 auto;
 }
 
+.centralizar {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 .imgsobre {
   height: 400px;
   height: 400px;
@@ -186,7 +193,6 @@ article {
 }
 
 ul li {
-  color: #3B3C59;
   font-size: 24px;
 }
 
