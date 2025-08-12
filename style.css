@@ -1,3 +1,5 @@
+/* Fontes */
+
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Great+Vibes&display=swap');
 
 .great-vibes-regular {
@@ -18,6 +20,8 @@
   font-style: normal;
 }
 
+/* geral */
+
 * {
   /* border: 1px solid blue; */
   font-family: 'Roboto', sans-serif;
@@ -28,29 +32,6 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: #BFBFBF;
-}
-
-header {
-  background-color: #3B3C59;
-  color: white;
-  position: sticky;
-  top: 0px;
-  z-index: 1;
-}
-
-header * {
-  display: inline-block;
-}
-
-nav {
-  position: relative;
-  left: 20%;
-  top: -15px;
-}
-
-nav i {
-  margin-right: 10px;
-  color: #F28705;
 }
 
 h2 {
@@ -65,11 +46,6 @@ a {
   font-size: 24px;
   border-radius: 50px;
   padding: 10px;
-}
-
-nav a:hover {
-  background-color: #5E608C;
-  color:#F28705;
 }
 
 section {
@@ -92,6 +68,36 @@ article {
   text-align: justify;
 }
 
+/* Header */
+
+header {
+  background-color: #3B3C59;
+  color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+header * {
+  display: inline-block;
+}
+
+nav {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+nav a:hover {
+  background-color: #5E608C;
+  color:#F28705;
+}
+
+nav i {
+  margin-right: 10px;
+  color: #F28705;
+}
+
 .logo{
   border-radius: 100%;
   width: 50px;
@@ -104,14 +110,18 @@ article {
   top: 5px;
 }
 
+/* Hero */
+
 #hero {
-  height: 125vh;
+  height: 900px;
 }
 
 .imghero {
   display: block;
   margin: 0 auto;
   margin-top: 5px;
+  max-height: 880px;
+  height: 100vh;
   width: 100%;
 }
 
@@ -166,6 +176,8 @@ article {
   margin: 0 auto;
 }
 
+/* Sobre */
+
 .imgsobre {
   height: 400px;
   height: 400px;
@@ -191,6 +203,8 @@ article {
 .artsobre2 {
   left: 40px;
 }
+
+/* Curiosidades */
 
 ul li {
   font-size: 24px;
@@ -246,6 +260,8 @@ ul p {
   left: 793px;
 }
 
+/* Causos */
+
 .imgcauso {
   max-height: 600px;
   border-radius: 20px;
@@ -259,11 +275,16 @@ ul p {
 
 .figcauso{
   width: 287px;
-  left: 200px;
 }
 
 .artcauso{
   width: 500px;
-  top: -250px;
-  left: 200px;
+  top: -450px;
+  left: 350px;
 }
+
+#divcausos {
+  width: 900px;
+  height: 650px;
+}
+
