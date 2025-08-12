@@ -113,7 +113,7 @@ nav i {
 /* Hero */
 
 #hero {
-  background-image: url("/imagens/Debate.jpg");
+  background-image: url("\imagens\Debate.jpg");
   background-color: #cccccc;
   height: 900px;
   background-position: center;
