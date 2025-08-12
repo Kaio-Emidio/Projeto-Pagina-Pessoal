@@ -113,7 +113,13 @@ nav i {
 /* Hero */
 
 #hero {
+  background-image: url("/imagens/Debate.jpg");
+  background-color: #cccccc;
   height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .imghero {
@@ -121,8 +127,9 @@ nav i {
   margin: 0 auto;
   margin-top: 5px;
   max-height: 880px;
-  height: 100vh;
+  max-width: 1336.5px;
   width: 100%;
+  height: 100vh;
 }
 
 .titulos {
