@@ -23,7 +23,7 @@
 /* geral */
 
 * {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   font-family: 'Roboto', sans-serif;
   transition: 0.5s;
 }
@@ -66,6 +66,19 @@ article {
   padding-right: 20px;
   font-size: 20px;
   text-align: justify;
+}
+
+.centralizar {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.divisoria {
+  width: 1200px;
+  height: 5px;
+  background-color: #5E608C;
+  border-radius: 50px;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -113,7 +126,7 @@ nav i {
 /* Hero */
 
 #hero {
-  background-image: url("/imagens/Debate.jpg");
+  background-image: url('imagens/Debate.jpg');
   background-color: #cccccc;
   height: 900px;
   background-position: center;
@@ -170,18 +183,6 @@ nav i {
   color: #F28705;
 }
 
-.divisoria {
-  width: 90%;
-  height: 5px;
-  background-color: #5E608C;
-  border-radius: 50px;
-  margin: 0 auto;
-}
-
-.centralizar {
-  width: 1140px;
-  margin: 0 auto;
-}
 
 /* Sobre */
 
@@ -297,6 +298,123 @@ ul p {
 
 /* Portfólio */
 
+h3 {
+  font-size: 20px;
+}
+
 .card {
-  
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  margin: 10px;
+  background-color: #8083BF;
+  border: 5px solid #5E608C;
+  border-radius: 20px;
+}
+
+.card4 {
+  width: 400px;
+  height: 500px;
+  display: inline-block;
+  margin: 10px;
+  background-color: #8083BF;
+  border: 5px solid #5E608C;
+  border-radius: 20px;
+  position: relative;
+  top: 18px;
+}
+
+.card:hover, .card4:hover {
+  background-color: #5E608C;
+  padding: 10px;
+}
+
+.textosport {
+  height: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.imgcard {
+  width: 400px;
+  height: 300px;
+  border: 0px;
+}
+
+.imgcardq {
+  width: 300px;
+  height: 300px;
+  border: 0px;
+  position: relative;
+  left: 50px;
+}
+
+#centport {
+  width: 900px;
+}
+
+/* Rotina */
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 5px solid #3B3C59;
+  font-weight: bolder;
+}
+
+th, td {
+  border: 1px solid #3B3C59;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+}
+
+th {
+  background-color: #3B3C59;
+  color: #BFBFBF;
+}
+
+tr {
+  background-color: #8083BF;
+}
+
+tr:hover {
+  background-color: #5E608C;
+  color: #F28705;
+}
+
+/* Footer */
+
+footer {
+  background-color: #3B3C59;
+  padding: 25px;
+  margin-top: 50px;
+  color: #BFBFBF;
+}
+
+footer a {
+  margin-right: 0px;
+}
+
+footer a:hover {
+  background-color: #5E608C;
+  color: #F28705;
+}
+
+footer p {
+  font-size: 24px;
+}
+
+#centfooter {
+  width: 800px;
+}
+
+.email {
+  margin: 0 auto;
+  width: 200px;
+  padding-bottom: 20px;
 }
