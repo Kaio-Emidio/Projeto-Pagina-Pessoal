@@ -126,7 +126,11 @@ nav i {
 /* Hero */
 
 #hero {
+<<<<<<< HEAD
   background-image: url('imagens/Debate.jpg');
+=======
+  background-image: url("\imagens\Debate.jpg");
+>>>>>>> e11ae5847d5cf82d9320cdda19b07f9bc1f673bc
   background-color: #cccccc;
   height: 900px;
   background-position: center;
@@ -303,6 +307,7 @@ h3 {
 }
 
 .card {
+<<<<<<< HEAD
   width: 400px;
   height: 500px;
   display: inline-block;
@@ -418,3 +423,7 @@ footer p {
   width: 200px;
   padding-bottom: 20px;
 }
+=======
+  
+}
+>>>>>>> e11ae5847d5cf82d9320cdda19b07f9bc1f673bc
