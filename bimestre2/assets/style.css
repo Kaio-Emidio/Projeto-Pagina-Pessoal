@@ -126,8 +126,8 @@ nav i {
 /* Hero */
 
 #hero {
-  background-image: url('imagens/Debate.jpg');
-  background-color: #cccccc;
+  background-image: url('img/Debate.jpg');
+  background-color: #BFBFBF;
   height: 900px;
   background-position: center;
   background-repeat: no-repeat;
@@ -417,4 +417,13 @@ footer p {
   margin: 0 auto;
   width: 200px;
   padding-bottom: 20px;
+}
+
+.links {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.links a{
+  border-radius: 100%;
 }
